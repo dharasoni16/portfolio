@@ -262,7 +262,8 @@ button:focus,
 
 /* space between sections */
 .space__between {
-  padding-top: 135px;
+  padding-top: 10px;
+  margin-top: 75px;
 }
 
 /* start grid fallback */
