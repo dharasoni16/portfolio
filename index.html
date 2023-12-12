@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhara's Portfolio Website</title>
+  <link href="./img/favicon-32x32.png" rel="shortcut icon" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+</head>
+
+<body>
+  <header class="page-header">
+    <img src="img/Dhara_Logo.png" class="page-header__item" id="logo" alt="Profile_logo" />
+    <nav class="main-navigation page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="#about" role="menuitem" class="navigation-list__item">About Me</a>
+        </li>
+        <li role="presentation">
+          <a href="#work" role="menuitem" class="navigation-list__item">Work</a>
+        </li>
+        <li role="presentation">
+          <a href="#contact" role="menuitem" class="navigation-list__item">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section id="profile">
+    <div class="profile">
+      <img src="img/Profile_pic_Dhara_Soni.jpg" class="profile__portrait" alt="Dhara Soni Portrait" />
+      <h1>Hello World</h1>
+      <p>
+        Welcome to my portfolio site! I'm Dhara, a passionate full-stack developer with a computer engineering degree.
+        Let's connect and discuss how I can add value to your
+        organization.
+      </p>
+      <a href="#work">Check out some of my code</a>
+    </div>
+  </section>
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+      <a href="https://github.com/dharasoni16" target="_blank">
+        <img src="./img/github-icon.svg" alt="Github" />
+      </a>
+      <a href="https://www.linkedin.com/in/dhara-soni-0819a0123" target="_blank">
+        <img src="./img/linkedin-icon.svg" alt="LinkedIn" />
+      </a>
+      <a href="https://www.xing.com/profile/Dhara_Soni" target="_blank">
+        <img src="./img/xing_icon.svg" alt="Xing" />
+      </a>
+    </div>
+  </footer>
+  <section id="work" class="space__between">
+    <h1 class="page-middle">Work</h1>
+    <div class="grid">
+      <div class="grid__item">
+        <h2>Simple Js App(Pokedox app)</h2>
+        <img class="project-img" src="img/Achievement2.PNG" alt="">
+        <p>
+          Simple Js App is a web application that uses HTML, CSS, Javascript, and Bootstrap to display detailed
+          information about Pokemon. It retrieves data from an external API and allows users to view a Pokemon's
+          height,
+          weight, type, and larger image by clicking on its name. Additionally, it includes a search feature to find
+          specific Pokemon by their name from the fetched list.
+        </p>
+        <p>Tech-stack: HTML, CSS, Bootstrap, JavaScript.
+        </p>
+        <a href="https://github.com/dharasoni16/simple-js-app" target="_blank">Check Code on githhub</a><br>
+        <a href="https://dharasoni16.github.io/simple-js-app/" target="_blank">Check Deployed application</a>
+      </div>
+      <div class="grid__item">
+        <h2>myFlix-client app</h2>
+        <img class="project-img" src="img/Achievement3.PNG" alt="">
+        <p>
+          myFlix-client is a React-based client-side application that serves as the user interface for a movie
+          recommendation system. It utilizes Bootstrap to create an interactive UI, allowing users to search for
+          movies.
+          The server-side code (REST API and database) is already in place.
+        </p>
+        <p>Tech-stack: React, React Bootstrap, Client Side App Routing.</p>
+        <a href="https://github.com/dharasoni16/myFlix-client" target="_blank">Check Code on githhub</a><br>
+        <a href="https://myflix-client-bollywood.netlify.app/login" target="_blank">Check Deployed application</a>
+      </div>
+      <div class="grid__item">
+        <h2>Meet App</h2>
+        <img class="project-img" src="img/Achievement4.PNG" alt="">
+        <p>
+          Meet app is a React-based serverless PWA developed using test-driven development. It utilizes the Google
+          Calendar API to retrieve upcoming events, allowing users to view events from all cities or select a specific
+          city from suggestions. The app also includes features such as event filtering based on number of events and
+          data visualization for displaying event details.
+        </p>
+        <p>Tech-stack:Javascript,React,React Testing libraries:Jest,Cucumber,Puppeteer, OAuth2,AWS Lambda functions,
+          Recharts</p>
+        <a href="https://github.com/dharasoni16/meet" target="_blank">Check Code on githhub</a><br>
+        <a href="https://dharasoni16.github.io/meet" target="_blank">Check Deployed application</a>
+      </div>
+      <div class="grid__item">
+        <h2>Movie_API</h2>
+        <img class="project-img" src="img/API-img.png" alt="" style="height: 200px;">
+        <p>
+          The movie_api is a server-side component for the "myFlix-client" and "myFlixAngular" web app, allowing users
+          to access movie, director, and genre information. Users can sign up, update personal details, and create a
+          list of favorite movies.
+        </p>
+        <p>Tech-stack: Node.js
+          Express.js
+          MongoDB
+          Rest and API Endpoints
+          Mongoose
+          JWT authentication
+          CORS in Express
+          Hashing using bcrypt
+          Postman</p>
+        <a href="https://github.com/dharasoni16/movie_api" target="_blank">Check Code on githhub</a><br>
+        <a href="https://movie-api-0fqq.onrender.com" target="_blank">Check Deployed application</a>
+      </div>
+      <div class="grid__item">
+        <h2>Chat-App</h2>
+        <!-- <img class="project-img" src="img/Achievement5.PNG" alt="" style="height: 230px;"> -->
+        <video width="200" controls>
+          <source src="video/ChatAppVideo5.webm" type="video/webm">
+          Your browser does not support HTML video.
+        </video>
+        <p>
+          Chat-app is a app for mobile device made using React Native.These app will provide users with a chat
+          interface
+          and options to share images and their location.
+        </p>
+        <p>Teach-stack: React Native,Expo,Android-Studio,Google Firebase</p>
+        <a href="https://github.com/dharasoni16/chat-app" target="_blank">Check Code on githhub</a><br>
+      </div>
+      <div class="grid__item">
+        <h2>myFlixAngular</h2>
+        <img class="project-img" src="img/Achievement6.PNG" alt="">
+        <p>
+          This is an Angular project, a client side for an application called movieApi based on its existing
+          server-side
+          code(REST API and database), with supporting documentation.
+        </p>
+        <p>Tech-stack:Angular
+          Typescript
+          Angular Material
+          Typedoc</p>
+        <a href="https://github.com/dharasoni16/myFlixAngular" target="_blank">Check Code on githhub</a><br>
+        <a href="https://dharasoni16.github.io/myFlixAngular/welcome" target="_blank">Check Deployed application</a>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="space__between">
+    <div>
+      <div class="bio">
+        <h1 class="page-middle">About Me</h1>
+        <p class="page-description">
+          I am a Web-developer from India living in Germany. I am a dedicated, organized and methodical
+          individual. I have
+          good interpersonal skills, am an excellent team player. I am always keen and very willing to
+          learn and develop new
+          skills. I am reliable and dependable and often seek new responsibilities within a wide range of
+          employment areas.
+          I have an active and dynamic approach to work and getting things done. I identify and develop
+          opportunities. I am
+          Responsible, creative, open-minded, friendly and ambitious web developer.
+        </p>
+      </div>
+      <div class="flex-container">
+        <div class="frontend">
+          <h2>Frontend Skills:</h2>
+          <ul>
+            <li>HTML5 / CSS3 / JavaScript (ES6)</li>
+            <li>ReactJs, React-Native, Angular</li>
+            <li>Responsive Design</li>
+            <li>Web Accessibility</li>
+            <li>Version Control Systems (Git)</li>
+            <li>UI Frameworks (Bootstrap, Angular Material)</li>
+          </ul>
+        </div>
+        <div class="backend">
+          <h2>Backend Skills:</h2>
+          <ul>
+            <li>Server Side Programming (NodeJS, Express)</li>
+            <li>AWS Lambda</li>
+            <li>Tools (npm)</li>
+            <li>RestfulAPIs</li>
+            <li>Postman</li>
+            <li>Web hosting</li>
+          </ul>
+        </div>
+        <div class="Database">
+          <h2>Database Skills:</h2>
+          <ul>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>PostgreSQL</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="page-middle">
+      <a href="files/Soni-Dhara-Resume.pdf" class="button" download>Download my CV</a>
+    </div>
+  </section>
+  <section class="flex-container space__between" id="contact">
+    <div class="contact-form">
+      <h1>Contact Me</h1>
+      <form action="https://formspree.io/f/mzbllvoz" method="post" id="contact-form">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required />
+        <br /><br />
+
+        <label for="email" class="standard-label">Email:</label><br />
+        <input type="email" id="email" name="email" required />
+        <br /><br />
+
+        <label for="phone_number" class="standard-label">Telephone:</label><br />
+        <input type="tel" id="phone_number" name="phone_number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" />
+        <br /><br />
+
+        <label for="msg" class="standard-label">Message:</label><br />
+        <textarea id="msg" rows="5" cols="30" name="msg" maxlength="240" required></textarea>
+        <br /><br />
+
+        <input type="submit" value="Send Message" class="button" />
+      </form>
+    </div>
+    <div class="contact-info">
+      <h2>Can Also Reach Me Out By</h2>
+      <p>
+        <!-- Tel:<a href="tel:012212224242">Call Me:012212224242</a><br /> -->
+        Email:<a href="mailto:dharasoni.97@gmail.com">dhara@gmail.com</a><br />
+        Skype:<a href="skype:dhara soni">Dhara Soni</a><br />
+        <a href="mailto:dharasoni.97@gmail.com">Contact Me</a>
+      </p>
+    </div>
+  </section>
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+      <a href="https://github.com/dharasoni16" target="_blank">
+        <img src="./img/github-icon.svg" alt="Github" />
+      </a>
+      <a href="https://www.linkedin.com/in/dhara-soni-0819a0123" target="_blank">
+        <img src="./img/linkedin-icon.svg" alt="LinkedIn" />
+      </a>
+      <a href="https://www.xing.com/profile/Dhara_Soni" target="_blank">
+        <img src="./img/xing_icon.svg" alt="Xing" />
+      </a>
+    </div>
+  </footer>
+  <div class="page-middle">
+    <a href="files/Impressum.pdf" download>
+      <p style="margin-top: 0;">Impressum</p>
+    </a>
+  </div>
+  <script src="./js/tota11y.min.js"></script>
+</body>
+
+</html>
