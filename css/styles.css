@@ -270,6 +270,10 @@ button:focus,
   text-align: justify;
 }
 
+.skills {
+  text-align: left;
+}
+
 @media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
